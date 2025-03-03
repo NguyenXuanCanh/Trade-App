@@ -1,28 +1,35 @@
 {
   "expo": {
-    "name": "Trade_app",
-    "slug": "Trade_app",
+    "name": "702 내차팔기",
+    "slug": "702_prime",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5D28D9"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "a"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#5D28D9"
+      },
+      "package": "com.hanbirosoftdev.Trade_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b58b013d-8d79-4fc4-aa16-18b58b4a9370"
+      }
     }
   }
 }
